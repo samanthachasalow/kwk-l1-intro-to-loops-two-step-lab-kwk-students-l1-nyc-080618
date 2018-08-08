@@ -23,11 +23,11 @@ def a_few_more_steps
     sleep (0.5)
     puts "right foot steps right and back"
     sleep (0.5)
-puts "Left foot rosses over right"
-sleep (0.5)
-"Right foot steps right"
-puts "Turn"
-sleep (1)
+    puts "Left foot rosses over right"
+    sleep (0.5)
+    puts "Right foot steps right"
+    puts "Turn"
+    sleep (1)
     end
 end
 
