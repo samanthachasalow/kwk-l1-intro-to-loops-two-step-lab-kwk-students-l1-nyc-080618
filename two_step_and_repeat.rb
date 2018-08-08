@@ -18,6 +18,14 @@ def a_few_more_steps
 end
 
 def how_many_steps?
+#   Create a variable called `steps` and set it equal to zero
+# * Just below this variable, write a loop that does four things:
+#   1. Increases the value of `steps` by 1
+#   2. Outputs the value of `steps`
+#   3. If the value of `steps` is divisible by 2 (remember how to use the `%`?),
+# outputs 'Left', otherwise, it should output 'Right'
+#   3. Sleeps for 0.5 seconds
+
   # Write a loop that fulfills all criteria from Part 3 of the README.md
 end
 
