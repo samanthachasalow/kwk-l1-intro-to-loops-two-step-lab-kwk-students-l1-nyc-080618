@@ -40,8 +40,8 @@ def how_many_steps?
     puts "Left"
   else 
     puts "Right"
+  end
     sleep (0.5)
-    end
   end
 end
 
