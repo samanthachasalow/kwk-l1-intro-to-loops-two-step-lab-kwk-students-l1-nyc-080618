@@ -41,12 +41,11 @@ def how_many_steps?
   else 
     puts "Right"
     sleep (0.5)
-    if steps == 6
-      break 
     end
 end
 
 def break_dance
+  
   # Write a solution that uses the same code as how_many_steps?, but breaks the
   # loop if steps is equal to 6
 end
