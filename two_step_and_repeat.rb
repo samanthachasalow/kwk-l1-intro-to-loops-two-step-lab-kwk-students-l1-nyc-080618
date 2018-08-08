@@ -20,13 +20,22 @@ def a_few_more_steps
    puts "Right foot back"
   sleep (0.5)
    puts "Stop"
-  
+  sleep (0.5)
+    puts "right foot steps right and back"
+  sleep (0.5)
+    puts "Left foot rosses over right"
+  sleep (0.5)
+    "Right foot steps right"
+    puts "Turn"
+  sleep (1)
     end
 end
 
 def how_many_steps?
   steps = 0 
   loop do
+    steps = steps + 1 
+    puts steps 
     
   end
     
