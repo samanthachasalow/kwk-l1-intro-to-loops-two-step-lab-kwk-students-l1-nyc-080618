@@ -36,18 +36,14 @@ def how_many_steps?
   loop do
     steps = steps + 1 
     puts steps 
-    
-  end
-    
-#   Create a variable called `steps` and set it equal to zero
-# * Just below this variable, write a loop that does four things:
-#   1. Increases the value of `steps` by 1
-#   2. Outputs the value of `steps`
-#   3. If the value of `steps` is divisible by 2 (remember how to use the `%`?),
-# outputs 'Left', otherwise, it should output 'Right'
-#   3. Sleeps for 0.5 seconds
-
-  # Write a loop that fulfills all criteria from Part 3 of the README.md
+  if steps % 2 == 0 
+    puts "Left"
+  else 
+    puts "Right"
+    sleep (0.5)
+    if steps == 6
+      break 
+    end
 end
 
 def break_dance
