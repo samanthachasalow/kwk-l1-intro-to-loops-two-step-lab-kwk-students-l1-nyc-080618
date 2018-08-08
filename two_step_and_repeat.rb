@@ -13,13 +13,22 @@ end
 
 def a_few_more_steps
   loop do 
-      puts "Right foot back"
-      puts "Left foot back"
+       puts "Right foot back"
+  sleep (0.5)
+   puts "Left foot back"
+  sleep (0.5)
+   puts "Right foot back"
+  sleep (0.5)
+   puts "Stop"
+  sleep (1)
+    end
 end
 
 def how_many_steps?
   steps = 0 
-  loop do 
+  loop do
+    
+  end
     
 #   Create a variable called `steps` and set it equal to zero
 # * Just below this variable, write a loop that does four things:
