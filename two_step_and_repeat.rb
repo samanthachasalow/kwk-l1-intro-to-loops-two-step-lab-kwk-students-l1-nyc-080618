@@ -18,6 +18,9 @@ def a_few_more_steps
 end
 
 def how_many_steps?
+  steps = 0 
+  loop do 
+    
 #   Create a variable called `steps` and set it equal to zero
 # * Just below this variable, write a loop that does four things:
 #   1. Increases the value of `steps` by 1
