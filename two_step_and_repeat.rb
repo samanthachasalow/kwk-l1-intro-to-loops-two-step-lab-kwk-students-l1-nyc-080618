@@ -21,7 +21,7 @@ def a_few_more_steps
     sleep (0.5)
     puts "Stop"
     sleep (0.5)
-    puts "right foot steps right and back"
+    puts "Right foot steps right and back"
     sleep (0.5)
     puts "Left foot crosses over right"
     sleep (0.5)
