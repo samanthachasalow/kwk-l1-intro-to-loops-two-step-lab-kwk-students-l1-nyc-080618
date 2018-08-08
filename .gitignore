@@ -1,3 +1,4 @@
+loop do 
 first_steps
   puts "Right foot back"
 sleep (0.5)
